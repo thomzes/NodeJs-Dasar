@@ -1,4 +1,4 @@
-import dns from "dns/promises";
+import dns from "dns";
 
 const address = await dns.lookup("www.chemtradeasia.com");
 
